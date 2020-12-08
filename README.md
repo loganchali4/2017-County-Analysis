@@ -9,6 +9,6 @@ Go to our full repository [HERE](https://github.com/gerrycrepeau/Final-Project-A
 
 Go to our dashboard [HERE](https://ma346-choropleth-dashboard.herokuapp.com/)
 
-Go to our deepnote [HERE]()
+Go to our deepnote [HERE](https://deepnote.com/project/d151ded9-3231-4946-9e41-cc48fe69b917)
 
 Go to our report [HERE]()
