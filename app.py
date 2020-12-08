@@ -20,12 +20,24 @@ ecoList = ['Average Income', 'Poverty Rate', 'Unemployment Rate', '% Self-Employ
 
 
 st.title('2017 U.S. County Correlation Dashboard')
+st.subheader('By: Gerry Crepeau, Logan Chalifour, and Riley Demanche')
+
+st.write('On the sidebar, please select one demographic variable of choice and one economic variable of choice. The dashboard will '
+         'update to show you an interactive choropleth maps of both variables organized by U.S. counties. Below the maps, observe if there is a statistically significant '
+         'correlation between the variables you chose and a scatter plot between the two variables to check out the data yourself. '
+         'The data was collected during 2017 American Community Survey.')
+
+link = 'Get the data [HERE](https://www.kaggle.com/muonneutrino/us-census-demographic-data)'
+st.markdown(link, unsafe_allow_html=True)
+link2 = 'View our GitHub Repository [HERE](https://github.com/gerrycrepeau/Final-Project-App)'
+st.markdown(link2, unsafe_allow_html=True)
+
 st.sidebar.title('Variable Selection')
-st.write('Find the data [HERE](www.kaggle.com/muonneutrino/us-census-demographic-data)')
-
-
 demo_choice = st.sidebar.selectbox('Select a Demographic Variable:', options=demoList)
+st.sidebar.markdown('Note: Population is a not a percentage. It gives the total population in each county')
+st.sidebar.markdown('\n\n')
 eco_choice = st.sidebar.selectbox('Select an Economic Variable:', options=ecoList)
+st.sidebar.markdown('Note: Average Income is measured in USD and Mean Commute is measured in minutes')
 
 with urlopen('https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json') as response:
     counties = json.load(response)
@@ -58,8 +70,9 @@ if pvalue <= .05:
 elif pvalue > .05:
     st.write(f'We cannot conclude a statistically significant correlation between {demo_choice} and {eco_choice}.')
 
-plt.scatter(final_df[demo_choice], final_df[eco_choice], alpha = .1, s = 20, color = 'royalblue')
-plt.title(f'Scatter Plot of {demo_choice} vs. {eco_choice}')
-plt.xlabel(demo_choice)
-plt.ylabel(eco_choice)
-st.pyplot()
+fig3, ax = plt.subplots(1, 1)
+ax.scatter(final_df[demo_choice], final_df[eco_choice], alpha = .1, s = 20, color = 'royalblue')
+ax.set_title(f'Scatter Plot of {demo_choice} vs. {eco_choice}')
+ax.set_xlabel(demo_choice)
+ax.set_ylabel(eco_choice)
+st.pyplot(fig3)
