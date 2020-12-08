@@ -23,10 +23,10 @@ st.title('2017 U.S. County Correlation Dashboard')
 st.subheader('By: Gerry Crepeau, Logan Chalifour, and Riley Demanche')
 
 st.write('On the sidebar, please select one demographic variable of choice and one economic variable of choice. The dashboard will '
-         'update to show you an interactive choropleth maps of both variables organized by U.S. counties. '
+         'update to show you interactive choropleth maps of both variables organized by U.S. counties. '
          'Zoom in and out on the map as well as hover over a county to see more information. Below the maps, observe if there is a statistically significant '
          'correlation between the variables you chose and a scatter plot between the two variables to check out the data yourself. '
-         'The data was collected during 2017 American Community Survey.')
+         'The data was collected during the 2017 American Community Survey.')
 
 link = 'Get the data [HERE](https://www.kaggle.com/muonneutrino/us-census-demographic-data)'
 st.markdown(link, unsafe_allow_html=True)
