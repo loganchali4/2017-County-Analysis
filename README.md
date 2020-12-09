@@ -7,4 +7,4 @@ Go to our interactive dashboard [HERE](https://ma346-choropleth-dashboard.heroku
 
 Go to our Deepnote script [HERE](https://deepnote.com/project/d151ded9-3231-4946-9e41-cc48fe69b917)
 
-Go to our report [HERE]()
+Go to our report [HERE](file:///C:/Users/Crepeau_Gera/Downloads/MA%20346%20Final%20Project%20Report.pdf)
