@@ -3,8 +3,10 @@ This project was intended to look at biases in the United States. After examinin
 
 Go to our full repository [HERE](https://github.com/gerrycrepeau/Final-Project-App)
 
+Go to our report [HERE](https://drive.google.com/file/d/1QG-C0l9ChOqMZy8OWqcu2mznmMoXeK5E/view?usp=sharing)
+
 Go to our interactive dashboard [HERE](https://ma346-choropleth-dashboard.herokuapp.com/)
 
 Go to our Deepnote script [HERE](https://deepnote.com/project/d151ded9-3231-4946-9e41-cc48fe69b917)
 
-Go to our report [HERE](https://drive.google.com/file/d/1QG-C0l9ChOqMZy8OWqcu2mznmMoXeK5E/view?usp=sharing)
+Go to our data soruce [HERE](https://www.kaggle.com/muonneutrino/us-census-demographic-data)
