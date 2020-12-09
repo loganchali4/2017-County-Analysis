@@ -32,7 +32,7 @@ link = 'Get the data [HERE](https://www.kaggle.com/muonneutrino/us-census-demogr
 st.markdown(link, unsafe_allow_html=True)
 link2 = 'View our GitHub Repository [HERE](https://github.com/gerrycrepeau/Final-Project-App)'
 st.markdown(link2, unsafe_allow_html=True)
-link3 = 'View our full project report [HERE](./source/2017CountyCorrelations.pdf)'
+link3 = 'View our full project report [HERE](https://drive.google.com/file/d/1QG-C0l9ChOqMZy8OWqcu2mznmMoXeK5E/view)'
 st.markdown(link3, unsafe_allow_html=True)
 
 st.sidebar.title('Variable Selection')
