@@ -1,4 +1,4 @@
-# Final-Project-App
+# 2017 US County Data Correlations
 Quick Summary: This project was intended to look at biasies in the United States. After examining various demographic and economic statistics for each county within the 
 United States from 2017, it is clear that certain relationships amongst these variables are significant. The trends in the data are shown through both choropleth maps
 and an examination of correlation coefficients with their statistical significance. In the dashboard created for this project, a visitor can choose to examine one demographic and one
