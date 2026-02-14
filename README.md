@@ -1,7 +1,7 @@
 # 2017-County-Analysis
 December 2020 | 2017 U.S. County Demographic and Economic Data Correlations
 
-This project looks at demographic data in the United States and how it relates to economic outcomes. After examining various demographic and economic statistics for each county within the United States from 2017, it is clear that certain relationships amongst these variables are significant. The trends in the data are shown through both choropleth maps and an examination of correlation coefficients with their statistical significance. In the dashboard created for this project, a visitor can choose to examine one demographic and one economic factor of their choosing. Through our analysis, we identified some of the strongest relationships between demographic and economic factors occur between Percent Black to Poverty Rate, Percent White to Percent Self-Employed, and Percent Asian to Average Income.
+This project looks at demographic data in the United States and how it relates to economic outcomes. After examining various demographic and economic statistics for each county within the United States from 2017, it is clear that certain relationships amongst these variables are significant. The trends in the data are shown through both choropleth maps and an examination of correlation coefficients with their statistical significance. In the dashboard created for this project, a visitor can choose to examine one demographic and one economic factor of their choosing. Through our analysis, we identified some of the strongest relationships between demographic and economic factors.
 
 View our report [HERE](https://drive.google.com/file/d/1QG-C0l9ChOqMZy8OWqcu2mznmMoXeK5E/view?usp=sharing)
 
