@@ -5,8 +5,8 @@ This project looks at demographic data in the United States and how it relates t
 
 View our report [HERE](https://drive.google.com/file/d/1QG-C0l9ChOqMZy8OWqcu2mznmMoXeK5E/view?usp=sharing)
 
-View our interactive dashboard [HERE](https://ma346-choropleth-dashboard.herokuapp.com/)
+View interactive dashboard [HERE](https://ma346-choropleth-dashboard.herokuapp.com/)
 
-View our Deepnote script [HERE](https://deepnote.com/workspace/logan-chalifour-4499e17c-38f8-4e22-9fd9-bb4212d29105/project/2017-US-County-Data-Correlations-d151ded9-3231-4946-9e41-cc48fe69b917/notebook/CountyAnalysis-5257732bd94849f399b0f17b401a6812)
+View interactive notebook [HERE](https://deepnote.com/workspace/logan-chalifour-4499e17c-38f8-4e22-9fd9-bb4212d29105/project/2017-US-County-Data-Correlations-d151ded9-3231-4946-9e41-cc48fe69b917/notebook/CountyAnalysis-5257732bd94849f399b0f17b401a6812)
 
-View our data soruce [HERE](https://www.kaggle.com/muonneutrino/us-census-demographic-data)
+View data source [HERE](https://www.kaggle.com/muonneutrino/us-census-demographic-data)
